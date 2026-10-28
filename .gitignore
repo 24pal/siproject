@@ -1,0 +1,15 @@
+# Environments & Dependencies
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large trained model binary files (>100MB exceeds GitHub push limit)
+*.joblib
+*.pkl
